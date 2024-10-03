@@ -19,5 +19,6 @@ def obtain_total_sum():
     # Add the total sum for all answers to the participant_sums variable
     total_sum_all_participants = sum(participant_sums)
     participant_sums.append(total_sum_all_participants)
+    print(participant_sums)
 
 obtain_total_sum()
